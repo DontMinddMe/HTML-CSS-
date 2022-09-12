@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: inset 0px -27px 79px -9px rgba(0, 0, 0, 0.58);
 }
 
 .features-section > .column-wrapper {
@@ -69,3 +70,24 @@
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+
+.features-section > .column-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .column-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.features-section > .column-wrapper > .column:hover :nth-child(2) {
+    letter-spacing: 1px;
+}
+
+.features-section > .column-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}
+
+
