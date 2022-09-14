@@ -1,0 +1,39 @@
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form > .content-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 100px;
+}
+
+.contact-form > .content-wrapper > .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > .content-wrapper > .contact-info > .logo {
+    margin-bottom: 40px;
+}
+
+.contact-form > .content-wrapper > .contact-info > .logo img {
+    width: 100%;
+}
+
+.contact-form > .content-wrapper > .contact-info > .info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.25em;
+    font-weight: 900;
+}
+
+.contact-form > .content-wrapper > .contact-info > .info-wrapper i {
+    color: #cea135;
+}
