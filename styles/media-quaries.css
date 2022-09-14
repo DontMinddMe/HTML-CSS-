@@ -19,6 +19,7 @@
     .navigation-wrapepr > .center-column {
         order: 1;
         width: 100%;
+        justify-content: center;
     }
 
     .navigation-wrapepr > .right-column {
@@ -48,6 +49,7 @@
     .footer > .links-wrapper {
         flex-direction: column;
         height: 100%;
+        width: 100%;
     }
 
     .footer > .links-wrapper > .nav-link {
