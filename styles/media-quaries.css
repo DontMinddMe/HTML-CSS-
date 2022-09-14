@@ -31,6 +31,7 @@
     .links-wrapper {
         flex-direction: column;
         height: 100%;
+        margin-bottom: 10px;
     }
 
     .links-wrapper > .nav-link {
